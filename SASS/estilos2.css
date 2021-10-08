@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-item {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.nav-item:hover {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white;
+}
+
+#slider {
+  height: 95vh;
+}
+
+#slider img {
+  height: 98vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+button {
+  color: #fff !important;
+}
+/*# sourceMappingURL=estilos2.css.map */
