@@ -51,6 +51,7 @@ body{
 }
 #container-text{
     width: 90%;
+    display: block;
 }
 
 button{
@@ -101,7 +102,9 @@ aside{
 }
 
 footer{
-    margin-top: 2rem;
+    svg{
+        display: block;
+    }
     i{
         // transition: all 2s;
         font-size:30px;
@@ -116,3 +119,8 @@ footer{
     color: #fff;
 }
 
+@media only screen and (max-width: 600px) {
+    svg {
+      display: none;
+    }
+  }

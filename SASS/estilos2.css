@@ -59,6 +59,7 @@ body {
 
 #container-text {
   width: 90%;
+  display: block;
 }
 
 button {
@@ -112,8 +113,8 @@ aside {
   font-weight: bold;
 }
 
-footer {
-  margin-top: 2rem;
+footer svg {
+  display: block;
 }
 
 footer i {
@@ -127,5 +128,11 @@ footer i:hover {
 
 .tittle-icons {
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  svg {
+    display: none;
+  }
 }
 /*# sourceMappingURL=estilos2.css.map */
