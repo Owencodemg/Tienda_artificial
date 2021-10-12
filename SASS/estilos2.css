@@ -6,18 +6,40 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 75px;
+}
+
 body {
-  background-color: #000;
+  background-color: #fff;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+  width: 100%;
 }
 
 .navbar-brand {
   font-weight: bold;
   font-size: 20px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.navbar-brand:hover {
+  text-shadow: 5px 5px 8px #fff;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .nav-item {
   font-size: 16px;
   font-weight: 800;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .nav-item:hover {
@@ -26,16 +48,84 @@ body {
 }
 
 #slider {
-  height: 95vh;
+  height: 100vh;
 }
 
 #slider img {
-  height: 98vh;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
+#container-text {
+  width: 90%;
+}
+
 button {
   color: #fff !important;
+}
+
+aside {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 55px;
+}
+
+.tittle-section {
+  color: #0d6efd;
+}
+
+#container-cards {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+#container-cards img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card {
+  -webkit-transition: all 1.2s;
+  transition: all 1.2s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-title {
+  color: #0d6efd;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card-title:hover {
+  text-shadow: 5px 5px 8px #0d6efd;
+}
+
+.card-precio {
+  color: #0d6efd;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+footer i {
+  font-size: 30px;
+}
+
+footer i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.tittle-icons {
+  color: #fff;
 }
 /*# sourceMappingURL=estilos2.css.map */
